@@ -96,7 +96,7 @@ Open `index.html` in your browser.
 
 ## 💼 Internship
 
-This project was developed as part of my internship at **iStudio** where I worked on front-end web development and UI implementation.
+This project was developed as part of my internship at **iStudio** where I worked on full stack web development.
 
 ---
 
