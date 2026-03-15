@@ -1,0 +1,128 @@
+.nav-item.active .nav-link {
+    font-weight: bold;
+    border-bottom: 2px solid #007BFF;
+}
+
+/* Carousel white background */
+.header_carousel {
+    background-color: #ffffff;
+    padding: 20px 0;  /* spacing above & below image */
+}
+
+
+
+/* Carousel image size – full image without cropping */
+.header_carousel img {
+    width: 100%;
+    max-height: 450px;   /* adjust: 400 / 450 / 500 as you want */
+    object-fit: contain; /* full image visible */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Carousel arrow icon color black */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* converts default white icons to black */
+}
+
+
+/* Category section image fix – full image without crop */
+.shop_by_category .card img {
+    height: 250px;        /* adjust based on size you want */
+    width: 100%;
+    object-fit: contain;  /* shows full image without cutting */
+    background-color: #f8f8f8; /* optional background for empty space */
+    padding: 10px;        /* space around image */
+}
+
+/* Latest products – full image without cropping */
+.products .single_product .product_img img {
+    height: 260px;          /* adjust the size you prefer */
+    width: 100%;
+    object-fit: contain;    /* show full image without crop */
+    background-color: #f8f8f8; 
+    padding: 10px;
+}
+.products .single_product {
+    overflow: hidden;
+}
+
+/* Related products – equal image size */
+.related_products img {
+    height: 260px;       /* same height like new/latest products */
+    width: 100%;
+    object-fit: contain; /* full image without cropping */
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.checkout_bg {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.order_confirmation img {
+    width: 130px;
+    height: auto;
+}
+
+.testimonial img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* Fix testimonial slider arrow position */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;              /* reduce clickable width */
+    top: 50%;               /* center vertically */
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: -40px;            /* move arrow outside to the left */
+}
+
+.carousel-control-next {
+    right: -40px;           /* move arrow outside to the right */
+}
+
+/* Make sure arrows stay visible on mobile */
+@media (max-width: 768px) {
+    .carousel-control-prev {
+        left: -10px;
+    }
+    .carousel-control-next {
+        right: -10px;
+    }
+}
+
+/* Fix home page carousel arrow position */
+.header_carousel .carousel-control-prev,
+.header_carousel .carousel-control-next {
+    width: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Move arrows slightly inside the image */
+.header_carousel .carousel-control-prev {
+    left: 15px;   /* adjust if needed */
+}
+
+.header_carousel .carousel-control-next {
+    right: 15px;  /* adjust if needed */
+}
+
+/* for services section background gradient */
+.feature{
+	background: rgb(0,121,230);
+	background: linear-gradient(0deg, rgba(0,121,230,1) 0%, rgba(0,250,255,1) 90%);
+}
+
